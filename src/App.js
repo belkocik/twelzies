@@ -192,7 +192,7 @@ function App() {
           <Center align="center" jusitfy="center">
             <VStack
               minWidth={{ base: "370px", md: "650px", lg: "700px" }}
-              height="840px"
+              height={{ base: "920px", md: "840px" }}
               bg="#F5F5F5"
               padding={12}
               borderRadius="8px"
