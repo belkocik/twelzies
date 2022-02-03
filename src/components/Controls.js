@@ -21,7 +21,7 @@ export default function Controls(props) {
         fontSize="2xl"
         onClick={props.handleStop}
       >
-        End Gamee
+        End Game
       </Button>
     </Box>
   );
