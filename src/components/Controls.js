@@ -9,7 +9,9 @@ export default function Controls(props) {
         width={{ base: "100px", lg: "160px" }}
         height={{ base: "50px", lg: "60px" }}
         fontSize="2xl"
-        onClick={props.isActive && props.handlePause}
+        //If you used to conditionally omit it with onClick={condition && value}, pass onClick={condition ? value : undefined} instead.
+        // WAS: onClick={props.isActive && props.handlePause}
+        onClick={props.isActive ? props.handlePause : undefined}
         m={1}
       >
         {props.isPaused ? "Resume" : "Pause"}

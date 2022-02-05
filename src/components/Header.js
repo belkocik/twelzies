@@ -22,7 +22,10 @@ export default function Header(props) {
       </Heading>
       <Heading
         as="h2"
-        fontSize={{ base: "lg", md: "xl", lg: props.twelzies ? "4xl" : "2xl" }}
+        fontSize={{
+          base: props.twelzies ? "2xl" : "xl",
+          lg: props.twelzies ? "3xl" : "xl",
+        }}
         pb={10}
         color={props.twelzies ? "red.300" : "gray.700"}
       >
