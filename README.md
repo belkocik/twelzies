@@ -30,4 +30,4 @@ What I use to create this project?
 
 ### Live demo
 
-[https://twelzies.vercel.app/](url)
+[https://twelzies.vercel.app/](url) 
