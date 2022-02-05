@@ -16,7 +16,7 @@ export default function Header(props) {
   }
 
   return (
-    <Box height="180px">
+    <Box height={{ base: "140px", md: "180px" }}>
       <Heading as="h1" size="4xl" color="purple.600" isTruncated>
         Twelzies
       </Heading>
@@ -26,7 +26,6 @@ export default function Header(props) {
           base: props.twelzies ? "2xl" : "xl",
           lg: props.twelzies ? "3xl" : "2xl",
         }}
-        pb={10}
         color={props.twelzies ? "red.300" : "gray.700"}
       >
         {headerContent}

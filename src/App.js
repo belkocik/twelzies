@@ -187,7 +187,6 @@ function App() {
         maxH="100vh"
         h="full"
         bg="linear-gradient(#6667AB, #37399e);"
-        p={4}
       >
         <Container>
           <Center align="center" jusitfy="center">
@@ -198,7 +197,7 @@ function App() {
               padding={6}
               borderRadius="8px"
               boxShadow="xl"
-              maxH="100vh"
+              maxH="98vh"
             >
               <Header
                 time={time}
@@ -228,7 +227,7 @@ function App() {
               >
                 {ButtonContent()}
               </Button>
-              <Divider borderColor="red" pt={2} />
+              <Divider borderColor="purple" pt={2} />
 
               <Grid
                 templateColumns={{ base: "repeat 1,2fr", md: "repeat(2,1fr)" }}
