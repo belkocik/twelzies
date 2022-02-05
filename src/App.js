@@ -184,6 +184,7 @@ function App() {
         justifyContent="center"
         w="full"
         minH="100vh"
+        maxH="100vh"
         h="full"
         bg="linear-gradient(#6667AB, #37399e);"
         p={4}
@@ -194,9 +195,10 @@ function App() {
               minWidth={{ base: "370px", md: "650px", lg: "700px" }}
               height={{ base: "920px", md: "840px" }}
               bg="#F5F5F5"
-              padding={12}
+              padding={6}
               borderRadius="8px"
               boxShadow="xl"
+              maxH="100vh"
             >
               <Header
                 time={time}
@@ -210,14 +212,14 @@ function App() {
                   lg: "repeat(4, 3fr)",
                 }}
                 gap={6}
-                pb={10}
+                pb={6}
               >
                 {diceElements}
               </Grid>
               <Button
                 colorScheme={twelzies ? "blue" : "purple"}
                 width="170px"
-                height="60px"
+                height={{ base: "50px", md: "60px" }}
                 fontSize="2xl"
                 onClick={() => {
                   rollDice();

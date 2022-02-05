@@ -50,7 +50,7 @@ export default function Scoreboard(props) {
 
       <Modal isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
-        <ModalContent>
+        <ModalContent m={2}>
           <ModalHeader fontSize="2xl">Scoreboard</ModalHeader>
           <ModalCloseButton />
           <ModalBody>

@@ -5,8 +5,8 @@ export default function Die(props) {
     <Flex
       align="center"
       justify="center"
-      h="70px"
-      w="70px"
+      h={{ base: "65px", md: "70px" }}
+      w={{ base: "65px", md: "70px" }}
       bg={props.isHeld ? "green.300" : "white"}
       cursor="pointer"
       borderRadius="5px"

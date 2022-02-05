@@ -24,7 +24,7 @@ export default function Header(props) {
         as="h2"
         fontSize={{
           base: props.twelzies ? "2xl" : "xl",
-          lg: props.twelzies ? "3xl" : "xl",
+          lg: props.twelzies ? "3xl" : "2xl",
         }}
         pb={10}
         color={props.twelzies ? "red.300" : "gray.700"}
