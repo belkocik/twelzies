@@ -20,7 +20,7 @@ What I use to create this project?
 - conditional (ternary) operator,
 - conditional rendering,
 - working with arrays/objects,
-- Javascript functions: e.g. array.map(), .every(), .push() and so on,
+- Javascript methods: e.g. .map(), .every(), .push() and so on,
 - saving/deleting data to/from localStorage,
 - using ChakraUI library,
 - Responsive Web Design,
